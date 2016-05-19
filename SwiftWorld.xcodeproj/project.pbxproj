@@ -14,6 +14,8 @@
 		EEEBFFA41CE3099C00852377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEBFFA21CE3099C00852377 /* LaunchScreen.storyboard */; };
 		EEEBFFAF1CE3099C00852377 /* SwiftWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEBFFAE1CE3099C00852377 /* SwiftWorldTests.swift */; };
 		EEEBFFBA1CE3099D00852377 /* SwiftWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEBFFB91CE3099D00852377 /* SwiftWorldUITests.swift */; };
+		EEF3143D1CED6BDF00216920 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF3143B1CED6BDF00216920 /* OtherViewController.swift */; };
+		EEF3143E1CED6BDF00216920 /* WaterPrinpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF3143C1CED6BDF00216920 /* WaterPrinpleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		EEEBFFB51CE3099C00852377 /* SwiftWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEEBFFB91CE3099D00852377 /* SwiftWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftWorldUITests.swift; sourceTree = "<group>"; };
 		EEEBFFBB1CE3099D00852377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEF3143B1CED6BDF00216920 /* OtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		EEF3143C1CED6BDF00216920 /* WaterPrinpleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterPrinpleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		EEEBFF981CE3099C00852377 /* SwiftWorld */ = {
 			isa = PBXGroup;
 			children = (
+				EEF3143B1CED6BDF00216920 /* OtherViewController.swift */,
+				EEF3143C1CED6BDF00216920 /* WaterPrinpleViewController.swift */,
 				EEEBFF991CE3099C00852377 /* AppDelegate.swift */,
 				EEEBFF9B1CE3099C00852377 /* ViewController.swift */,
 				EEEBFF9D1CE3099C00852377 /* Main.storyboard */,
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEEBFF9C1CE3099C00852377 /* ViewController.swift in Sources */,
+				EEF3143D1CED6BDF00216920 /* OtherViewController.swift in Sources */,
+				EEF3143E1CED6BDF00216920 /* WaterPrinpleViewController.swift in Sources */,
 				EEEBFF9A1CE3099C00852377 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,7 +356,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -386,7 +394,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -482,6 +490,7 @@
 				EEEBFFC01CE3099D00852377 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EEEBFFC11CE3099D00852377 /* Build configuration list for PBXNativeTarget "SwiftWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +499,7 @@
 				EEEBFFC31CE3099D00852377 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EEEBFFC41CE3099D00852377 /* Build configuration list for PBXNativeTarget "SwiftWorldUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +508,7 @@
 				EEEBFFC61CE3099D00852377 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
