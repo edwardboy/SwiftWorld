@@ -49,6 +49,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         cell.textLabel?.text = items?.objectAtIndex(indexPath.row) as? String
         cell.textLabel?.textColor = UIColor.orangeColor()
         cell.selectionStyle = .None
+        cell.accessoryType = .DisclosureIndicator
         
         return  cell;
     }
