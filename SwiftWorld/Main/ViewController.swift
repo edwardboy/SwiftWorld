@@ -28,9 +28,11 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         //        print("\(a!)" + "\(b!!)")
         self.navigationItem.title = "Swift学习"
         
+        self.edgesForExtendedLayout = .None
+        
         self.view.addSubview(listView)
         
-        items = ["水波纹效果","其他"]
+        items = ["水波纹效果","模拟建行app转动菜单","其他"]
         
         listView.registerClass(UITableViewCell.classForCoder(), forCellReuseIdentifier: "CELL")
     }
@@ -40,7 +42,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2;
+        return items!.count;
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
@@ -56,19 +58,27 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
-        var vc : UIViewController;
+        var vc : UIViewController?
         
         switch(indexPath.row){
         case 0:
             vc = WaterPrinpleViewController()
             break;
             
-        default:
+        case 1:
+            vc = DynamicMenuViewController()
+            break;
+            
+        case 2:
             vc = OtherViewController()
             break;
+            
+        default:
+            
+            break;
         }
-        vc.navigationItem.title = items?.objectAtIndex(indexPath.row) as? String
-        self.navigationController?.pushViewController(vc, animated: true)
+        vc!.navigationItem.title = items?.objectAtIndex(indexPath.row) as? String
+        self.navigationController?.pushViewController(vc!, animated: true)
     }
     
     func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {

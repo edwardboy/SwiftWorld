@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EEEBFF9A1CE3099C00852377 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEBFF991CE3099C00852377 /* AppDelegate.swift */; };
-		EEEBFF9C1CE3099C00852377 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEBFF9B1CE3099C00852377 /* ViewController.swift */; };
-		EEEBFF9F1CE3099C00852377 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEBFF9D1CE3099C00852377 /* Main.storyboard */; };
-		EEEBFFA11CE3099C00852377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEEBFFA01CE3099C00852377 /* Assets.xcassets */; };
-		EEEBFFA41CE3099C00852377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEBFFA21CE3099C00852377 /* LaunchScreen.storyboard */; };
+		EEEB3FFF1CF46B8900E0FE38 /* DynamicMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEB3FFE1CF46B8900E0FE38 /* DynamicMenuViewController.m */; };
+		EEEB40021CF46BB500E0FE38 /* CircleLHQView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEB40011CF46BB500E0FE38 /* CircleLHQView.m */; };
+		EEEB40221CF473AD00E0FE38 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEB40041CF473AC00E0FE38 /* OtherViewController.swift */; };
+		EEEB40231CF473AD00E0FE38 /* WaterPrinpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEB40061CF473AC00E0FE38 /* WaterPrinpleViewController.swift */; };
+		EEEB40241CF473AD00E0FE38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEB40081CF473AC00E0FE38 /* AppDelegate.swift */; };
+		EEEB40251CF473AD00E0FE38 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EEEB40091CF473AD00E0FE38 /* Info.plist */; };
+		EEEB40261CF473AD00E0FE38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEB400A1CF473AD00E0FE38 /* ViewController.swift */; };
+		EEEB40271CF473AD00E0FE38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEEB400C1CF473AD00E0FE38 /* Assets.xcassets */; };
+		EEEB40281CF473AD00E0FE38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEB400D1CF473AD00E0FE38 /* LaunchScreen.storyboard */; };
+		EEEB40291CF473AD00E0FE38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEB400F1CF473AD00E0FE38 /* Main.storyboard */; };
 		EEEBFFAF1CE3099C00852377 /* SwiftWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEBFFAE1CE3099C00852377 /* SwiftWorldTests.swift */; };
 		EEEBFFBA1CE3099D00852377 /* SwiftWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEBFFB91CE3099D00852377 /* SwiftWorldUITests.swift */; };
-		EEF3143D1CED6BDF00216920 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF3143B1CED6BDF00216920 /* OtherViewController.swift */; };
-		EEF3143E1CED6BDF00216920 /* WaterPrinpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF3143C1CED6BDF00216920 /* WaterPrinpleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +39,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EEEB3FFC1CF46B8800E0FE38 /* SwiftWorld-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftWorld-Bridging-Header.h"; sourceTree = "<group>"; };
+		EEEB3FFD1CF46B8900E0FE38 /* DynamicMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicMenuViewController.h; sourceTree = "<group>"; };
+		EEEB3FFE1CF46B8900E0FE38 /* DynamicMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicMenuViewController.m; sourceTree = "<group>"; };
+		EEEB40001CF46BB500E0FE38 /* CircleLHQView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLHQView.h; sourceTree = "<group>"; };
+		EEEB40011CF46BB500E0FE38 /* CircleLHQView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLHQView.m; sourceTree = "<group>"; };
+		EEEB40041CF473AC00E0FE38 /* OtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		EEEB40061CF473AC00E0FE38 /* WaterPrinpleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterPrinpleViewController.swift; sourceTree = "<group>"; };
+		EEEB40081CF473AC00E0FE38 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEEB40091CF473AD00E0FE38 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEEB400A1CF473AD00E0FE38 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EEEB400C1CF473AD00E0FE38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEEB400E1CF473AD00E0FE38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEEB40101CF473AD00E0FE38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EEEBFF961CE3099C00852377 /* SwiftWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEEBFF991CE3099C00852377 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EEEBFF9B1CE3099C00852377 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EEEBFF9E1CE3099C00852377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EEEBFFA01CE3099C00852377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EEEBFFA31CE3099C00852377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EEEBFFA51CE3099C00852377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEEBFFAA1CE3099C00852377 /* SwiftWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEEBFFAE1CE3099C00852377 /* SwiftWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftWorldTests.swift; sourceTree = "<group>"; };
 		EEEBFFB01CE3099C00852377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEEBFFB51CE3099C00852377 /* SwiftWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEEBFFB91CE3099D00852377 /* SwiftWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftWorldUITests.swift; sourceTree = "<group>"; };
 		EEEBFFBB1CE3099D00852377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EEF3143B1CED6BDF00216920 /* OtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
-		EEF3143C1CED6BDF00216920 /* WaterPrinpleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterPrinpleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +86,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EEEB3FF21CF4207B00E0FE38 /* 动态菜单 */ = {
+			isa = PBXGroup;
+			children = (
+				EEEB3FFD1CF46B8900E0FE38 /* DynamicMenuViewController.h */,
+				EEEB3FFE1CF46B8900E0FE38 /* DynamicMenuViewController.m */,
+				EEEB3FFC1CF46B8800E0FE38 /* SwiftWorld-Bridging-Header.h */,
+				EEEB40001CF46BB500E0FE38 /* CircleLHQView.h */,
+				EEEB40011CF46BB500E0FE38 /* CircleLHQView.m */,
+			);
+			path = "动态菜单";
+			sourceTree = "<group>";
+		};
+		EEEB40031CF473AC00E0FE38 /* 其他 */ = {
+			isa = PBXGroup;
+			children = (
+				EEEB40041CF473AC00E0FE38 /* OtherViewController.swift */,
+			);
+			path = "其他";
+			sourceTree = "<group>";
+		};
+		EEEB40051CF473AC00E0FE38 /* 水波纹 */ = {
+			isa = PBXGroup;
+			children = (
+				EEEB40061CF473AC00E0FE38 /* WaterPrinpleViewController.swift */,
+			);
+			path = "水波纹";
+			sourceTree = "<group>";
+		};
+		EEEB40071CF473AC00E0FE38 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EEEB40081CF473AC00E0FE38 /* AppDelegate.swift */,
+				EEEB40091CF473AD00E0FE38 /* Info.plist */,
+				EEEB400A1CF473AD00E0FE38 /* ViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EEEB400B1CF473AD00E0FE38 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				EEEB400C1CF473AD00E0FE38 /* Assets.xcassets */,
+				EEEB400D1CF473AD00E0FE38 /* LaunchScreen.storyboard */,
+				EEEB400F1CF473AD00E0FE38 /* Main.storyboard */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		EEEB40111CF473AD00E0FE38 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		EEEB40211CF473AD00E0FE38 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 		EEEBFF8D1CE3099C00852377 = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +171,13 @@
 		EEEBFF981CE3099C00852377 /* SwiftWorld */ = {
 			isa = PBXGroup;
 			children = (
-				EEF3143B1CED6BDF00216920 /* OtherViewController.swift */,
-				EEF3143C1CED6BDF00216920 /* WaterPrinpleViewController.swift */,
-				EEEBFF991CE3099C00852377 /* AppDelegate.swift */,
-				EEEBFF9B1CE3099C00852377 /* ViewController.swift */,
-				EEEBFF9D1CE3099C00852377 /* Main.storyboard */,
-				EEEBFFA01CE3099C00852377 /* Assets.xcassets */,
-				EEEBFFA21CE3099C00852377 /* LaunchScreen.storyboard */,
-				EEEBFFA51CE3099C00852377 /* Info.plist */,
+				EEEB40031CF473AC00E0FE38 /* 其他 */,
+				EEEB40051CF473AC00E0FE38 /* 水波纹 */,
+				EEEB40071CF473AC00E0FE38 /* Main */,
+				EEEB400B1CF473AD00E0FE38 /* Other */,
+				EEEB40111CF473AD00E0FE38 /* SupportingFiles */,
+				EEEB40211CF473AD00E0FE38 /* Tool */,
+				EEEB3FF21CF4207B00E0FE38 /* 动态菜单 */,
 			);
 			path = SwiftWorld;
 			sourceTree = "<group>";
@@ -235,9 +304,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEEBFFA41CE3099C00852377 /* LaunchScreen.storyboard in Resources */,
-				EEEBFFA11CE3099C00852377 /* Assets.xcassets in Resources */,
-				EEEBFF9F1CE3099C00852377 /* Main.storyboard in Resources */,
+				EEEB40281CF473AD00E0FE38 /* LaunchScreen.storyboard in Resources */,
+				EEEB40271CF473AD00E0FE38 /* Assets.xcassets in Resources */,
+				EEEB40251CF473AD00E0FE38 /* Info.plist in Resources */,
+				EEEB40291CF473AD00E0FE38 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,10 +332,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEEBFF9C1CE3099C00852377 /* ViewController.swift in Sources */,
-				EEF3143D1CED6BDF00216920 /* OtherViewController.swift in Sources */,
-				EEF3143E1CED6BDF00216920 /* WaterPrinpleViewController.swift in Sources */,
-				EEEBFF9A1CE3099C00852377 /* AppDelegate.swift in Sources */,
+				EEEB40261CF473AD00E0FE38 /* ViewController.swift in Sources */,
+				EEEB40021CF46BB500E0FE38 /* CircleLHQView.m in Sources */,
+				EEEB40221CF473AD00E0FE38 /* OtherViewController.swift in Sources */,
+				EEEB40231CF473AD00E0FE38 /* WaterPrinpleViewController.swift in Sources */,
+				EEEB40241CF473AD00E0FE38 /* AppDelegate.swift in Sources */,
+				EEEB3FFF1CF46B8900E0FE38 /* DynamicMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,20 +373,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EEEBFF9D1CE3099C00852377 /* Main.storyboard */ = {
+		EEEB400D1CF473AD00E0FE38 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EEEBFF9E1CE3099C00852377 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EEEBFFA21CE3099C00852377 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EEEBFFA31CE3099C00852377 /* Base */,
+				EEEB400E1CF473AD00E0FE38 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EEEB400F1CF473AD00E0FE38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEEB40101CF473AD00E0FE38 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -356,7 +428,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -394,7 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -405,10 +477,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SwiftWorld/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftWorld/Main/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Groupfly.SwiftWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftWorld/动态菜单/SwiftWorld-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -416,10 +491,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SwiftWorld/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftWorld/Main/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Groupfly.SwiftWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftWorld/动态菜单/SwiftWorld-Bridging-Header.h";
 			};
 			name = Release;
 		};
