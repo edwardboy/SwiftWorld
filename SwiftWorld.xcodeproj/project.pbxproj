@@ -12,7 +12,6 @@
 		EEEB40221CF473AD00E0FE38 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEB40041CF473AC00E0FE38 /* OtherViewController.swift */; };
 		EEEB40231CF473AD00E0FE38 /* WaterPrinpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEB40061CF473AC00E0FE38 /* WaterPrinpleViewController.swift */; };
 		EEEB40241CF473AD00E0FE38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEB40081CF473AC00E0FE38 /* AppDelegate.swift */; };
-		EEEB40251CF473AD00E0FE38 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EEEB40091CF473AD00E0FE38 /* Info.plist */; };
 		EEEB40261CF473AD00E0FE38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEB400A1CF473AD00E0FE38 /* ViewController.swift */; };
 		EEEB40271CF473AD00E0FE38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEEB400C1CF473AD00E0FE38 /* Assets.xcassets */; };
 		EEEB40281CF473AD00E0FE38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEB400D1CF473AD00E0FE38 /* LaunchScreen.storyboard */; };
@@ -39,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D58E5515C2C2D3D8438EF6A5 /* Pods_SwiftWorld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftWorld.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4B735E1CF54A7700FCD25B /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = "Pods/../build/Debug-iphoneos/SnapKit/SnapKit.framework"; sourceTree = "<group>"; };
 		EEEB3FFC1CF46B8800E0FE38 /* SwiftWorld-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftWorld-Bridging-Header.h"; sourceTree = "<group>"; };
 		EEEB3FFD1CF46B8900E0FE38 /* DynamicMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicMenuViewController.h; sourceTree = "<group>"; };
 		EEEB3FFE1CF46B8900E0FE38 /* DynamicMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicMenuViewController.m; sourceTree = "<group>"; };
@@ -86,6 +87,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8199C9DE53A7540DA11393FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE4B735E1CF54A7700FCD25B /* SnapKit.framework */,
+				D58E5515C2C2D3D8438EF6A5 /* Pods_SwiftWorld.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EEEB3FF21CF4207B00E0FE38 /* 动态菜单 */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +165,7 @@
 				EEEBFFAD1CE3099C00852377 /* SwiftWorldTests */,
 				EEEBFFB81CE3099C00852377 /* SwiftWorldUITests */,
 				EEEBFF971CE3099C00852377 /* Products */,
+				8199C9DE53A7540DA11393FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -306,7 +317,6 @@
 			files = (
 				EEEB40281CF473AD00E0FE38 /* LaunchScreen.storyboard in Resources */,
 				EEEB40271CF473AD00E0FE38 /* Assets.xcassets in Resources */,
-				EEEB40251CF473AD00E0FE38 /* Info.plist in Resources */,
 				EEEB40291CF473AD00E0FE38 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +441,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DSNAPKIT_DEPLOYMENT_LEGACY";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -468,6 +479,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_SWIFT_FLAGS = "-DSNAPKIT_DEPLOYMENT_LEGACY";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -478,8 +490,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SnapKit",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/SwiftWorld/Main/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-DSNAPKIT_DEPLOYMENT_LEGACY";
 				PRODUCT_BUNDLE_IDENTIFIER = Groupfly.SwiftWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftWorld/动态菜单/SwiftWorld-Bridging-Header.h";
@@ -492,8 +509,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SnapKit",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/SwiftWorld/Main/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-DSNAPKIT_DEPLOYMENT_LEGACY";
 				PRODUCT_BUNDLE_IDENTIFIER = Groupfly.SwiftWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SwiftWorld/动态菜单/SwiftWorld-Bridging-Header.h";
