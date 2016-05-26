@@ -7,16 +7,19 @@
 //
 
 import UIKit
+//import SnapKit
 
 class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
     
-    lazy private var listView: UITableView = {
-        
-        let tempListView = UITableView(frame: CGRectZero, style: .Grouped)
-        tempListView.dataSource = self
-        tempListView.delegate = self
-        return tempListView
-    }()
+    @IBOutlet weak var listView: UITableView!
+    
+//    lazy private var listView: UITableView = {
+//        
+//        let tempListView = UITableView(frame: CGRectZero, style: .Grouped)
+//        tempListView.dataSource = self
+//        tempListView.delegate = self
+//        return tempListView
+//    }()
     
     private var items : NSArray?
     
@@ -29,10 +32,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         self.navigationItem.title = "Swift学习"
         
         self.edgesForExtendedLayout = .None
-        
-        self.view.addSubview(listView)
-        
-        
+
         items = ["水波纹效果","模拟建行app转动菜单","其他"]
         
         listView.registerClass(UITableViewCell.classForCoder(), forCellReuseIdentifier: "CELL")

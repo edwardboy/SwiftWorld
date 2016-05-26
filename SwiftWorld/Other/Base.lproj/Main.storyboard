@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,9 +17,38 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="iFO-RC-93I">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="Yfx-BN-5yK"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Q7K-tB-O8o"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="iFO-RC-93I" secondAttribute="trailing" id="5af-Gg-Jkb"/>
+                            <constraint firstItem="iFO-RC-93I" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="94B-Gm-L5B"/>
+                            <constraint firstItem="iFO-RC-93I" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="J2E-dx-Ry9"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="iFO-RC-93I" secondAttribute="bottom" id="Ksk-ag-5nV"/>
+                            <constraint firstItem="iFO-RC-93I" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aaa-Yb-Hvk"/>
+                            <constraint firstItem="iFO-RC-93I" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="c2t-tv-X9E"/>
+                            <constraint firstAttribute="trailing" secondItem="iFO-RC-93I" secondAttribute="trailing" id="jbK-wE-hnE"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="5af-Gg-Jkb"/>
+                                <exclude reference="aaa-Yb-Hvk"/>
+                                <exclude reference="c2t-tv-X9E"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="9g6-xd-1dx"/>
+                    <connections>
+                        <outlet property="listView" destination="iFO-RC-93I" id="1Op-eo-9KS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
