@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EEDC57761CF6F3AA002F85CD /* CMPopTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDC57751CF6F3AA002F85CD /* CMPopTipView.swift */; };
+		EEE9AA311CF7E403008DF1CB /* PopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE9AA2F1CF7E403008DF1CB /* PopViewController.swift */; };
+		EEE9AA321CF7E403008DF1CB /* PopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEE9AA301CF7E403008DF1CB /* PopViewController.xib */; };
 		EEEB3FFF1CF46B8900E0FE38 /* DynamicMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEB3FFE1CF46B8900E0FE38 /* DynamicMenuViewController.m */; };
 		EEEB40021CF46BB500E0FE38 /* CircleLHQView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEB40011CF46BB500E0FE38 /* CircleLHQView.m */; };
 		EEEB40221CF473AD00E0FE38 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEB40041CF473AC00E0FE38 /* OtherViewController.swift */; };
@@ -51,6 +54,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EEDC57751CF6F3AA002F85CD /* CMPopTipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMPopTipView.swift; sourceTree = "<group>"; };
+		EEE9AA2F1CF7E403008DF1CB /* PopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopViewController.swift; sourceTree = "<group>"; };
+		EEE9AA301CF7E403008DF1CB /* PopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopViewController.xib; sourceTree = "<group>"; };
 		EEEB3FFC1CF46B8800E0FE38 /* SwiftWorld-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftWorld-Bridging-Header.h"; sourceTree = "<group>"; };
 		EEEB3FFD1CF46B8900E0FE38 /* DynamicMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicMenuViewController.h; sourceTree = "<group>"; };
 		EEEB3FFE1CF46B8900E0FE38 /* DynamicMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicMenuViewController.m; sourceTree = "<group>"; };
@@ -103,6 +109,16 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEDC57741CF6F3AA002F85CD /* 弹出框 */ = {
+			isa = PBXGroup;
+			children = (
+				EEDC57751CF6F3AA002F85CD /* CMPopTipView.swift */,
+				EEE9AA2F1CF7E403008DF1CB /* PopViewController.swift */,
+				EEE9AA301CF7E403008DF1CB /* PopViewController.xib */,
+			);
+			path = "弹出框";
 			sourceTree = "<group>";
 		};
 		EEEB3FF21CF4207B00E0FE38 /* 动态菜单 */ = {
@@ -191,6 +207,7 @@
 		EEEBFF981CE3099C00852377 /* SwiftWorld */ = {
 			isa = PBXGroup;
 			children = (
+				EEDC57741CF6F3AA002F85CD /* 弹出框 */,
 				EEEB40031CF473AC00E0FE38 /* 其他 */,
 				EEEB40051CF473AC00E0FE38 /* 水波纹 */,
 				EEEB40071CF473AC00E0FE38 /* Main */,
@@ -325,6 +342,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE9AA321CF7E403008DF1CB /* PopViewController.xib in Resources */,
 				EEEB40281CF473AD00E0FE38 /* LaunchScreen.storyboard in Resources */,
 				EEEB40271CF473AD00E0FE38 /* Assets.xcassets in Resources */,
 				EEEB40291CF473AD00E0FE38 /* Main.storyboard in Resources */,
@@ -352,8 +370,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE9AA311CF7E403008DF1CB /* PopViewController.swift in Sources */,
 				EEEB40261CF473AD00E0FE38 /* ViewController.swift in Sources */,
 				EEEB40021CF46BB500E0FE38 /* CircleLHQView.m in Sources */,
+				EEDC57761CF6F3AA002F85CD /* CMPopTipView.swift in Sources */,
 				EEEB40221CF473AD00E0FE38 /* OtherViewController.swift in Sources */,
 				EEEB40231CF473AD00E0FE38 /* WaterPrinpleViewController.swift in Sources */,
 				EEEB40241CF473AD00E0FE38 /* AppDelegate.swift in Sources */,
@@ -448,7 +468,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "";
@@ -487,7 +507,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;

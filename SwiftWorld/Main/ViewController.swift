@@ -33,7 +33,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         
         self.edgesForExtendedLayout = .None
 
-        items = ["水波纹效果","模拟建行app转动菜单","其他"]
+        items = ["水波纹效果","模拟建行app转动菜单","弹出框","其他"]
         
         listView.registerClass(UITableViewCell.classForCoder(), forCellReuseIdentifier: "CELL")
     }
@@ -71,6 +71,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
             break;
             
         case 2:
+            vc = PopViewController(nibName: "PopViewController", bundle: nil)
+            break;
+            
+        case 3:
             vc = OtherViewController()
             break;
             
