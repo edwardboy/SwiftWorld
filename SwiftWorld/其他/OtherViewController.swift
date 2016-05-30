@@ -13,7 +13,11 @@ class OtherViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = UIColor.orangeColor()
+        view.backgroundColor = UIColor.whiteColor()
+        
+        let mainVC : HMMainViewController = HMMainViewController();
+        self.presentViewController(mainVC, animated: true, completion: nil)
     }
 
+    
 }

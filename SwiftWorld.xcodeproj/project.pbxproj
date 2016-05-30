@@ -21,6 +21,15 @@
 		EEEB40291CF473AD00E0FE38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEB400F1CF473AD00E0FE38 /* Main.storyboard */; };
 		EEEBFFAF1CE3099C00852377 /* SwiftWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEBFFAE1CE3099C00852377 /* SwiftWorldTests.swift */; };
 		EEEBFFBA1CE3099D00852377 /* SwiftWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEBFFB91CE3099D00852377 /* SwiftWorldUITests.swift */; };
+		EEF1F9A71CFBD4C30080BEFD /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF1F9A21CFBD4C30080BEFD /* UIBarButtonItem+Extension.m */; };
+		EEF1F9A81CFBD4C30080BEFD /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF1F9A41CFBD4C30080BEFD /* UIImage+Extension.m */; };
+		EEF1F9A91CFBD4C30080BEFD /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF1F9A61CFBD4C30080BEFD /* UIView+Extension.m */; };
+		EEF1F9B91CFBD4D20080BEFD /* HMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF1F9AD1CFBD4D20080BEFD /* HMMainViewController.m */; };
+		EEF1F9BA1CFBD4D20080BEFD /* HMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF1F9AF1CFBD4D20080BEFD /* HMNavigationController.m */; };
+		EEF1F9BB1CFBD4D20080BEFD /* HMNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF1F9B11CFBD4D20080BEFD /* HMNewsViewController.m */; };
+		EEF1F9BC1CFBD4D20080BEFD /* HMReadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF1F9B31CFBD4D20080BEFD /* HMReadingViewController.m */; };
+		EEF1F9BD1CFBD4D20080BEFD /* HMLeftMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF1F9B61CFBD4D20080BEFD /* HMLeftMenu.m */; };
+		EEF1F9BE1CFBD4D20080BEFD /* HMTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF1F9B81CFBD4D20080BEFD /* HMTitleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +86,25 @@
 		EEEBFFB51CE3099C00852377 /* SwiftWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEEBFFB91CE3099D00852377 /* SwiftWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftWorldUITests.swift; sourceTree = "<group>"; };
 		EEEBFFBB1CE3099D00852377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEF1F9A11CFBD4C30080BEFD /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		EEF1F9A21CFBD4C30080BEFD /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		EEF1F9A31CFBD4C30080BEFD /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		EEF1F9A41CFBD4C30080BEFD /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		EEF1F9A51CFBD4C30080BEFD /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		EEF1F9A61CFBD4C30080BEFD /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		EEF1F9AC1CFBD4D20080BEFD /* HMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMMainViewController.h; sourceTree = "<group>"; };
+		EEF1F9AD1CFBD4D20080BEFD /* HMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMMainViewController.m; sourceTree = "<group>"; };
+		EEF1F9AE1CFBD4D20080BEFD /* HMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMNavigationController.h; sourceTree = "<group>"; };
+		EEF1F9AF1CFBD4D20080BEFD /* HMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMNavigationController.m; sourceTree = "<group>"; };
+		EEF1F9B01CFBD4D20080BEFD /* HMNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMNewsViewController.h; sourceTree = "<group>"; };
+		EEF1F9B11CFBD4D20080BEFD /* HMNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMNewsViewController.m; sourceTree = "<group>"; };
+		EEF1F9B21CFBD4D20080BEFD /* HMReadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMReadingViewController.h; sourceTree = "<group>"; };
+		EEF1F9B31CFBD4D20080BEFD /* HMReadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMReadingViewController.m; sourceTree = "<group>"; };
+		EEF1F9B51CFBD4D20080BEFD /* HMLeftMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMLeftMenu.h; sourceTree = "<group>"; };
+		EEF1F9B61CFBD4D20080BEFD /* HMLeftMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMLeftMenu.m; sourceTree = "<group>"; };
+		EEF1F9B71CFBD4D20080BEFD /* HMTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTitleView.h; sourceTree = "<group>"; };
+		EEF1F9B81CFBD4D20080BEFD /* HMTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTitleView.m; sourceTree = "<group>"; };
+		EEF1F9BF1CFBD62A0080BEFD /* netease.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = netease.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +193,7 @@
 				EEEB400C1CF473AD00E0FE38 /* Assets.xcassets */,
 				EEEB400D1CF473AD00E0FE38 /* LaunchScreen.storyboard */,
 				EEEB400F1CF473AD00E0FE38 /* Main.storyboard */,
+				EEF1F9BF1CFBD62A0080BEFD /* netease.pch */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -172,6 +201,12 @@
 		EEEB40111CF473AD00E0FE38 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				EEF1F9A11CFBD4C30080BEFD /* UIBarButtonItem+Extension.h */,
+				EEF1F9A21CFBD4C30080BEFD /* UIBarButtonItem+Extension.m */,
+				EEF1F9A31CFBD4C30080BEFD /* UIImage+Extension.h */,
+				EEF1F9A41CFBD4C30080BEFD /* UIImage+Extension.m */,
+				EEF1F9A51CFBD4C30080BEFD /* UIView+Extension.h */,
+				EEF1F9A61CFBD4C30080BEFD /* UIView+Extension.m */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -207,6 +242,7 @@
 		EEEBFF981CE3099C00852377 /* SwiftWorld */ = {
 			isa = PBXGroup;
 			children = (
+				EEF1F9AA1CFBD4D10080BEFD /* 侧边栏 */,
 				EEDC57741CF6F3AA002F85CD /* 弹出框 */,
 				EEEB40031CF473AC00E0FE38 /* 其他 */,
 				EEEB40051CF473AC00E0FE38 /* 水波纹 */,
@@ -235,6 +271,41 @@
 				EEEBFFBB1CE3099D00852377 /* Info.plist */,
 			);
 			path = SwiftWorldUITests;
+			sourceTree = "<group>";
+		};
+		EEF1F9AA1CFBD4D10080BEFD /* 侧边栏 */ = {
+			isa = PBXGroup;
+			children = (
+				EEF1F9AB1CFBD4D20080BEFD /* Controller */,
+				EEF1F9B41CFBD4D20080BEFD /* View */,
+			);
+			path = "侧边栏";
+			sourceTree = "<group>";
+		};
+		EEF1F9AB1CFBD4D20080BEFD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EEF1F9AC1CFBD4D20080BEFD /* HMMainViewController.h */,
+				EEF1F9AD1CFBD4D20080BEFD /* HMMainViewController.m */,
+				EEF1F9AE1CFBD4D20080BEFD /* HMNavigationController.h */,
+				EEF1F9AF1CFBD4D20080BEFD /* HMNavigationController.m */,
+				EEF1F9B01CFBD4D20080BEFD /* HMNewsViewController.h */,
+				EEF1F9B11CFBD4D20080BEFD /* HMNewsViewController.m */,
+				EEF1F9B21CFBD4D20080BEFD /* HMReadingViewController.h */,
+				EEF1F9B31CFBD4D20080BEFD /* HMReadingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EEF1F9B41CFBD4D20080BEFD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EEF1F9B51CFBD4D20080BEFD /* HMLeftMenu.h */,
+				EEF1F9B61CFBD4D20080BEFD /* HMLeftMenu.m */,
+				EEF1F9B71CFBD4D20080BEFD /* HMTitleView.h */,
+				EEF1F9B81CFBD4D20080BEFD /* HMTitleView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,10 +443,19 @@
 			files = (
 				EEE9AA311CF7E403008DF1CB /* PopViewController.swift in Sources */,
 				EEEB40261CF473AD00E0FE38 /* ViewController.swift in Sources */,
+				EEF1F9BE1CFBD4D20080BEFD /* HMTitleView.m in Sources */,
+				EEF1F9BC1CFBD4D20080BEFD /* HMReadingViewController.m in Sources */,
+				EEF1F9A91CFBD4C30080BEFD /* UIView+Extension.m in Sources */,
 				EEEB40021CF46BB500E0FE38 /* CircleLHQView.m in Sources */,
 				EEDC57761CF6F3AA002F85CD /* CMPopTipView.swift in Sources */,
 				EEEB40221CF473AD00E0FE38 /* OtherViewController.swift in Sources */,
+				EEF1F9B91CFBD4D20080BEFD /* HMMainViewController.m in Sources */,
+				EEF1F9A81CFBD4C30080BEFD /* UIImage+Extension.m in Sources */,
 				EEEB40231CF473AD00E0FE38 /* WaterPrinpleViewController.swift in Sources */,
+				EEF1F9A71CFBD4C30080BEFD /* UIBarButtonItem+Extension.m in Sources */,
+				EEF1F9BB1CFBD4D20080BEFD /* HMNewsViewController.m in Sources */,
+				EEF1F9BD1CFBD4D20080BEFD /* HMLeftMenu.m in Sources */,
+				EEF1F9BA1CFBD4D20080BEFD /* HMNavigationController.m in Sources */,
 				EEEB40241CF473AD00E0FE38 /* AppDelegate.swift in Sources */,
 				EEEB3FFF1CF46B8900E0FE38 /* DynamicMenuViewController.m in Sources */,
 			);
@@ -525,6 +605,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/SnapKit",
 				);
+				GCC_PREFIX_HEADER = /Users/groupfly/Desktop/Git_SwiftWorld/SwiftWorld/Other/netease.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/SwiftWorld/Main/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "";
@@ -545,6 +626,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/SnapKit",
 				);
+				GCC_PREFIX_HEADER = /Users/groupfly/Desktop/Git_SwiftWorld/SwiftWorld/Other/netease.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/SwiftWorld/Main/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "";
