@@ -15,9 +15,13 @@ class OtherViewController: UIViewController {
         
         view.backgroundColor = UIColor.whiteColor()
         
+        
+    }
+    
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        
         let mainVC : HMMainViewController = HMMainViewController();
         self.presentViewController(mainVC, animated: true, completion: nil)
     }
-
     
 }

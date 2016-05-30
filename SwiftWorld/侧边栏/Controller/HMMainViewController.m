@@ -60,7 +60,11 @@
     leftMenu.height = 300;
     leftMenu.width = 200;
     leftMenu.y = 60;
-    [self.view insertSubview:leftMenu atIndex:1];
+    
+    [self.view addSubview:leftMenu];
+    [self.view exchangeSubviewAtIndex:0 withSubviewAtIndex:1];
+    
+    NSLog(@"subviews---%@",self.view.subviews);
 }
 
 - (UIStatusBarStyle)preferredStatusBarStyle
@@ -81,6 +85,7 @@
     
     // 2.设置标题
     HMTitleView *titleView = [[HMTitleView alloc] init];
+    
     titleView.title = title;
     vc.navigationItem.titleView = titleView;
     
@@ -126,6 +131,7 @@
         UIButton *cover = [[UIButton alloc] init];
         [cover addTarget:self action:@selector(coverClick:) forControlEvents:UIControlEventTouchUpInside];
         cover.frame = showingView.bounds;
+        self.showingNavigationController.cover = cover;
         [showingView addSubview:cover];
     }];
 }
@@ -142,6 +148,7 @@
 - (void)rightMenu
 {
     NSLog(@"rightMenu");
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 #pragma mark - HMLeftMenuDelegate
@@ -163,6 +170,10 @@
     
     // 2.设置当前正在显示的控制器
     self.showingNavigationController = newNav;
+    
+    if (self.showingNavigationController.cover) {
+        [self.showingNavigationController.cover removeFromSuperview];
+    }
     
     // 3.清空transform
     [UIView animateWithDuration:HMNavShowAnimDuration animations:^{

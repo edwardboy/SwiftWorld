@@ -16,10 +16,17 @@
 
 + (void)initialize
 {
-    UINavigationBar *appearance = [UINavigationBar appearance];
+//    UINavigationBar *appearance = [UINavigationBar appearance];
+//    
+//    // 设置导航栏背景
+//    [appearance setBackgroundImage:[UIImage imageNamed:@"top_navigation_background"] forBarMetrics:UIBarMetricsDefault];
     
-    // 设置导航栏背景
-    [appearance setBackgroundImage:[UIImage imageNamed:@"top_navigation_background"] forBarMetrics:UIBarMetricsDefault];
+}
+
+- (void)viewDidLoad{
+    [super viewDidLoad];
+    
+    [self.navigationBar setBackgroundImage:[UIImage imageNamed:@"top_navigation_background"] forBarMetrics:UIBarMetricsDefault];
 }
 
 @end

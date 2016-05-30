@@ -10,4 +10,6 @@
 
 @interface HMNavigationController : UINavigationController
 
+@property (nonatomic,strong) UIButton *cover;
+
 @end
