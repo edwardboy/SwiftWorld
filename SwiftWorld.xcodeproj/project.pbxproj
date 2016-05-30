@@ -30,6 +30,8 @@
 		EEF1F9BC1CFBD4D20080BEFD /* HMReadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF1F9B31CFBD4D20080BEFD /* HMReadingViewController.m */; };
 		EEF1F9BD1CFBD4D20080BEFD /* HMLeftMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF1F9B61CFBD4D20080BEFD /* HMLeftMenu.m */; };
 		EEF1F9BE1CFBD4D20080BEFD /* HMTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF1F9B81CFBD4D20080BEFD /* HMTitleView.m */; };
+		EEF1F9C71CFC36670080BEFD /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF1F9C61CFC36670080BEFD /* DataViewController.swift */; };
+		EEF1F9C91CFC36EB0080BEFD /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF1F9C81CFC36EB0080BEFD /* BookModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +107,8 @@
 		EEF1F9B71CFBD4D20080BEFD /* HMTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTitleView.h; sourceTree = "<group>"; };
 		EEF1F9B81CFBD4D20080BEFD /* HMTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTitleView.m; sourceTree = "<group>"; };
 		EEF1F9BF1CFBD62A0080BEFD /* netease.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = netease.pch; sourceTree = "<group>"; };
+		EEF1F9C61CFC36670080BEFD /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		EEF1F9C81CFC36EB0080BEFD /* BookModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +246,7 @@
 		EEEBFF981CE3099C00852377 /* SwiftWorld */ = {
 			isa = PBXGroup;
 			children = (
+				EEF1F9C51CFC36470080BEFD /* 数据存储 */,
 				EEF1F9AA1CFBD4D10080BEFD /* 侧边栏 */,
 				EEDC57741CF6F3AA002F85CD /* 弹出框 */,
 				EEEB40031CF473AC00E0FE38 /* 其他 */,
@@ -306,6 +311,15 @@
 				EEF1F9B81CFBD4D20080BEFD /* HMTitleView.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		EEF1F9C51CFC36470080BEFD /* 数据存储 */ = {
+			isa = PBXGroup;
+			children = (
+				EEF1F9C61CFC36670080BEFD /* DataViewController.swift */,
+				EEF1F9C81CFC36EB0080BEFD /* BookModel.swift */,
+			);
+			path = "数据存储";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -445,12 +459,14 @@
 				EEEB40261CF473AD00E0FE38 /* ViewController.swift in Sources */,
 				EEF1F9BE1CFBD4D20080BEFD /* HMTitleView.m in Sources */,
 				EEF1F9BC1CFBD4D20080BEFD /* HMReadingViewController.m in Sources */,
+				EEF1F9C91CFC36EB0080BEFD /* BookModel.swift in Sources */,
 				EEF1F9A91CFBD4C30080BEFD /* UIView+Extension.m in Sources */,
 				EEEB40021CF46BB500E0FE38 /* CircleLHQView.m in Sources */,
 				EEDC57761CF6F3AA002F85CD /* CMPopTipView.swift in Sources */,
 				EEEB40221CF473AD00E0FE38 /* OtherViewController.swift in Sources */,
 				EEF1F9B91CFBD4D20080BEFD /* HMMainViewController.m in Sources */,
 				EEF1F9A81CFBD4C30080BEFD /* UIImage+Extension.m in Sources */,
+				EEF1F9C71CFC36670080BEFD /* DataViewController.swift in Sources */,
 				EEEB40231CF473AD00E0FE38 /* WaterPrinpleViewController.swift in Sources */,
 				EEF1F9A71CFBD4C30080BEFD /* UIBarButtonItem+Extension.m in Sources */,
 				EEF1F9BB1CFBD4D20080BEFD /* HMNewsViewController.m in Sources */,
