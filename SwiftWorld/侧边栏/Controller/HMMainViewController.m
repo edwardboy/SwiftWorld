@@ -15,6 +15,7 @@
 
 
 #define HMNavShowAnimDuration 0.25
+#define LeftMenuWidth 160
 
 @interface HMMainViewController () <HMLeftMenuDelegate>
 /**
@@ -58,7 +59,7 @@
     HMLeftMenu *leftMenu = [[HMLeftMenu alloc] init];
     leftMenu.delegate = self;
     leftMenu.height = 300;
-    leftMenu.width = 200;
+    leftMenu.width = LeftMenuWidth;
     leftMenu.y = 60;
     
     [self.view addSubview:leftMenu];
@@ -115,7 +116,7 @@
         
         // 菜单左边的间距
         CGFloat leftMenuMargin = [UIScreen mainScreen].bounds.size.width * (1 - scale) * 0.5;
-        CGFloat translateX = 200 - leftMenuMargin;
+        CGFloat translateX = LeftMenuWidth - leftMenuMargin;
         
         CGFloat topMargin = [UIScreen mainScreen].bounds.size.height * (1 - scale) * 0.5;
         CGFloat translateY = topMargin - 60;

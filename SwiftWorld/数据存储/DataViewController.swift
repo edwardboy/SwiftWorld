@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import LocalAuthentication
 
 
 class DataViewController: UIViewController {
@@ -20,6 +21,67 @@ class DataViewController: UIViewController {
         
         // 归档
         usageOfNSKeywedarchive()
+        
+        //字符串与字符数组转换
+        transformBetweenCharacterArrayAndString()
+    }
+    
+    /**
+     指纹的使用
+     */
+    func usageOfLAContext(){
+        if #available(iOS 8.0, *) {
+            let myContext : LAContext = LAContext()
+            let localizedString : String = "请录入指纹"
+            
+            let pointer = NSErrorPointer()
+            
+            if (myContext.canEvaluatePolicy(.DeviceOwnerAuthenticationWithBiometrics, error: pointer)){
+                myContext.evaluatePolicy(.DeviceOwnerAuthenticationWithBiometrics, localizedReason: localizedString, reply: { (success, error) -> Void in
+                    
+                    if (success){
+                        print("成功")
+                    }else{
+                        print("失败")
+                    }
+                    
+                })
+            }
+            
+        } else {
+            // Fallback on earlier versions
+            print("当前系统版本较低，指纹不可用");
+        };
+    }
+    
+    /**
+     字符串与字符数组之间的转换
+     */
+    func transformBetweenCharacterArrayAndString(){
+        
+        /*
+        oc中转换方式：
+        
+        NSString *str = @"abc123";
+        
+        NSInteger count = str.length;
+        
+        const char *a = [str cStringUsingEncoding:NSUTF8StringEncoding];
+        
+        NSMutableString *muStr = [NSMutableString stringWithUTF8String:a];
+        NSLog(@"muStr=%@",muStr);
+        
+        for (int i = 0; i<count; i++) {
+        char s = a[i];
+        NSLog(@"s%d=%c",i,s);
+        }
+        */
+        
+        let string = "abc123"
+        
+        for i in string.characters {
+            print("string -" + "\(i)")
+        }
         
     }
     
@@ -63,6 +125,9 @@ class DataViewController: UIViewController {
         print(newBook)
     }
     
+    /**
+     获取应用所在的沙盒路径
+     */
     func getDocumentPath() ->String {
         
         let documentPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true).first

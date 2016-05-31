@@ -56,6 +56,8 @@ class PopViewController: UIViewController,UITableViewDataSource,UITableViewDeleg
                 currentPopTipView?.dismissAnimated(true)
             }
             
+            cell.selectionStyle = .None
+            
             currentPopTipView = CMPopTipView(title: "Message", message: "You just tapped on \(indexPath.row).")
             
             

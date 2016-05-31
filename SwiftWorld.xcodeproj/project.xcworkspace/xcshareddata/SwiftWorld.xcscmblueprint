@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "EB97152D813A4C72566B668519F3796F5D28BC96",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "b3ea32e5-604c-4fca-b5db-6ae888a3e4b3++5760" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "b3ea32e5-604c-4fca-b5db-6ae888a3e4b3++5760" : 0,
+    "EB97152D813A4C72566B668519F3796F5D28BC96" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7FED14BB-7239-4F2A-95AB-624764D406A0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "b3ea32e5-604c-4fca-b5db-6ae888a3e4b3++5760" : "Git_SwiftWorld\/SwiftWorld\/Daily\/Library\/SDWebImage\/",
+    "EB97152D813A4C72566B668519F3796F5D28BC96" : "Git_SwiftWorld\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SwiftWorld",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SwiftWorld.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/edwardboy\/SwiftWorld.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EB97152D813A4C72566B668519F3796F5D28BC96"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/yangj.5166.info\/1000phone",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b3ea32e5-604c-4fca-b5db-6ae888a3e4b3++5760"
+    }
+  ]
+}

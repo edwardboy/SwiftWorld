@@ -33,7 +33,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         
         self.edgesForExtendedLayout = .None
 
-        items = ["水波纹效果","模拟建行app转动菜单","弹出框","其他","数据存储"]
+        items = ["水波纹效果","模拟建行app转动菜单","弹出框","其他","数据存储","参考视频播放"]
         
         listView.registerClass(UITableViewCell.classForCoder(), forCellReuseIdentifier: "CELL")
     }
@@ -81,8 +81,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         case 4:
             vc = DataViewController()
             
-        default:
+        case 5:
+            vc = DailyViewController()
             
+        default:
             break;
         }
         vc!.navigationItem.title = items?.objectAtIndex(indexPath.row) as? String
