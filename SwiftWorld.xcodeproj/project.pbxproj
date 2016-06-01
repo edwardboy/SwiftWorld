@@ -48,7 +48,6 @@
 		EEEB4A851CFD70920092EFE8 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEB4A101CFD70920092EFE8 /* UIScrollView+MJExtension.m */; };
 		EEEB4A861CFD70920092EFE8 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEB4A121CFD70920092EFE8 /* UIScrollView+MJRefresh.m */; };
 		EEEB4A871CFD70920092EFE8 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEB4A141CFD70920092EFE8 /* UIView+MJExtension.m */; };
-		EEEB4A881CFD70920092EFE8 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = EEEB4A161CFD70920092EFE8 /* LICENSE */; };
 		EEEB4A891CFD70920092EFE8 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEB4A181CFD70920092EFE8 /* SDImageCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		EEEB4A8A1CFD70920092EFE8 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEB4A1C1CFD70920092EFE8 /* SDWebImageDecoder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		EEEB4A8B1CFD70920092EFE8 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEB4A1E1CFD70920092EFE8 /* SDWebImageDownloader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -228,7 +227,6 @@
 		EEEB4A121CFD70920092EFE8 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
 		EEEB4A131CFD70920092EFE8 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
 		EEEB4A141CFD70920092EFE8 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
-		EEEB4A161CFD70920092EFE8 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		EEEB4A171CFD70920092EFE8 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
 		EEEB4A181CFD70920092EFE8 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
 		EEEB4A191CFD70920092EFE8 /* SDImageCacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCacheDelegate.h; sourceTree = "<group>"; };
@@ -608,7 +606,6 @@
 		EEEB4A151CFD70920092EFE8 /* SDWebImage */ = {
 			isa = PBXGroup;
 			children = (
-				EEEB4A161CFD70920092EFE8 /* LICENSE */,
 				EEEB4A171CFD70920092EFE8 /* SDImageCache.h */,
 				EEEB4A181CFD70920092EFE8 /* SDImageCache.m */,
 				EEEB4A191CFD70920092EFE8 /* SDImageCacheDelegate.h */,
@@ -1048,7 +1045,6 @@
 				EEEB4A921CFD70920092EFE8 /* SSVideoPlayer.bundle in Resources */,
 				EEEB4AD31CFD73780092EFE8 /* icon_110.png in Resources */,
 				EEEB4ACC1CFD73780092EFE8 /* icon_079.png in Resources */,
-				EEEB4A881CFD70920092EFE8 /* LICENSE in Resources */,
 				EEEB4A971CFD70920092EFE8 /* EveryDaySelectViewController.xib in Resources */,
 				EEEB4ADD1CFD73780092EFE8 /* share@2x.png in Resources */,
 				EEEB4AD21CFD73780092EFE8 /* icon_085.png in Resources */,
