@@ -33,7 +33,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         
         self.edgesForExtendedLayout = .None
 
-        items = ["水波纹效果","模拟建行app转动菜单","弹出框","其他","数据存储"]
+        items = ["水波纹效果","模拟建行app转动菜单","弹出框","其他","数据存储","cell模型"]
         
         listView.registerClass(UITableViewCell.classForCoder(), forCellReuseIdentifier: "CELL")
     }
@@ -80,6 +80,9 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
             
         case 4:
             vc = DataViewController()
+            
+        case 5:
+            vc = TableViewModelController()
             
             
         default:

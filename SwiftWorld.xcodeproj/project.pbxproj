@@ -21,6 +21,20 @@
 		EEEB40291CF473AD00E0FE38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEB400F1CF473AD00E0FE38 /* Main.storyboard */; };
 		EEEBFFAF1CE3099C00852377 /* SwiftWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEBFFAE1CE3099C00852377 /* SwiftWorldTests.swift */; };
 		EEEBFFBA1CE3099D00852377 /* SwiftWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEBFFB91CE3099D00852377 /* SwiftWorldUITests.swift */; };
+		EEEE01791CFECD000064439A /* HMCommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEE01661CFECD000064439A /* HMCommonViewController.m */; };
+		EEEE017A1CFECD000064439A /* HMCommonArrowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEE01691CFECD000064439A /* HMCommonArrowItem.m */; };
+		EEEE017B1CFECD000064439A /* HMCommonCenterItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEE016B1CFECD000064439A /* HMCommonCenterItem.m */; };
+		EEEE017C1CFECD000064439A /* HMCommonGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEE016D1CFECD000064439A /* HMCommonGroup.m */; };
+		EEEE017D1CFECD000064439A /* HMCommonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEE016F1CFECD000064439A /* HMCommonItem.m */; };
+		EEEE017E1CFECD000064439A /* HMCommonLabelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEE01711CFECD000064439A /* HMCommonLabelItem.m */; };
+		EEEE017F1CFECD000064439A /* HMCommonSwitchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEE01731CFECD000064439A /* HMCommonSwitchItem.m */; };
+		EEEE01801CFECD000064439A /* HMBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEE01761CFECD000064439A /* HMBadgeView.m */; };
+		EEEE01811CFECD000064439A /* HMCommonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEE01781CFECD000064439A /* HMCommonCell.m */; };
+		EEEE01831CFECD390064439A /* TableViewModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEE01821CFECD390064439A /* TableViewModelController.swift */; };
+		EEEE01851CFED2240064439A /* CellPopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEE01841CFED2240064439A /* CellPopViewController.swift */; };
+		EEEE018B1CFED60A0064439A /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEE01861CFED60A0064439A /* Foundation+Log.m */; };
+		EEEE018C1CFED60A0064439A /* NSDate+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEE01881CFED60A0064439A /* NSDate+MJ.m */; };
+		EEEE01901CFED6D60064439A /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEE018F1CFED6D60064439A /* NSString+Extension.m */; };
 		EEF1F9A71CFBD4C30080BEFD /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF1F9A21CFBD4C30080BEFD /* UIBarButtonItem+Extension.m */; };
 		EEF1F9A81CFBD4C30080BEFD /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF1F9A41CFBD4C30080BEFD /* UIImage+Extension.m */; };
 		EEF1F9A91CFBD4C30080BEFD /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF1F9A61CFBD4C30080BEFD /* UIView+Extension.m */; };
@@ -88,6 +102,31 @@
 		EEEBFFB51CE3099C00852377 /* SwiftWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEEBFFB91CE3099D00852377 /* SwiftWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftWorldUITests.swift; sourceTree = "<group>"; };
 		EEEBFFBB1CE3099D00852377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEEE01651CFECD000064439A /* HMCommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMCommonViewController.h; sourceTree = "<group>"; };
+		EEEE01661CFECD000064439A /* HMCommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMCommonViewController.m; sourceTree = "<group>"; };
+		EEEE01681CFECD000064439A /* HMCommonArrowItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMCommonArrowItem.h; sourceTree = "<group>"; };
+		EEEE01691CFECD000064439A /* HMCommonArrowItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMCommonArrowItem.m; sourceTree = "<group>"; };
+		EEEE016A1CFECD000064439A /* HMCommonCenterItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMCommonCenterItem.h; sourceTree = "<group>"; };
+		EEEE016B1CFECD000064439A /* HMCommonCenterItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMCommonCenterItem.m; sourceTree = "<group>"; };
+		EEEE016C1CFECD000064439A /* HMCommonGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMCommonGroup.h; sourceTree = "<group>"; };
+		EEEE016D1CFECD000064439A /* HMCommonGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMCommonGroup.m; sourceTree = "<group>"; };
+		EEEE016E1CFECD000064439A /* HMCommonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMCommonItem.h; sourceTree = "<group>"; };
+		EEEE016F1CFECD000064439A /* HMCommonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMCommonItem.m; sourceTree = "<group>"; };
+		EEEE01701CFECD000064439A /* HMCommonLabelItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMCommonLabelItem.h; sourceTree = "<group>"; };
+		EEEE01711CFECD000064439A /* HMCommonLabelItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMCommonLabelItem.m; sourceTree = "<group>"; };
+		EEEE01721CFECD000064439A /* HMCommonSwitchItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMCommonSwitchItem.h; sourceTree = "<group>"; };
+		EEEE01731CFECD000064439A /* HMCommonSwitchItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMCommonSwitchItem.m; sourceTree = "<group>"; };
+		EEEE01751CFECD000064439A /* HMBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMBadgeView.h; sourceTree = "<group>"; };
+		EEEE01761CFECD000064439A /* HMBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMBadgeView.m; sourceTree = "<group>"; };
+		EEEE01771CFECD000064439A /* HMCommonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMCommonCell.h; sourceTree = "<group>"; };
+		EEEE01781CFECD000064439A /* HMCommonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMCommonCell.m; sourceTree = "<group>"; };
+		EEEE01821CFECD390064439A /* TableViewModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewModelController.swift; sourceTree = "<group>"; };
+		EEEE01841CFED2240064439A /* CellPopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CellPopViewController.swift; path = Common/CellPopViewController.swift; sourceTree = "<group>"; };
+		EEEE01861CFED60A0064439A /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		EEEE01871CFED60A0064439A /* NSDate+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+MJ.h"; sourceTree = "<group>"; };
+		EEEE01881CFED60A0064439A /* NSDate+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MJ.m"; sourceTree = "<group>"; };
+		EEEE018E1CFED6D60064439A /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		EEEE018F1CFED6D60064439A /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 		EEF1F9A11CFBD4C30080BEFD /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
 		EEF1F9A21CFBD4C30080BEFD /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 		EEF1F9A31CFBD4C30080BEFD /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
@@ -205,6 +244,11 @@
 		EEEB40111CF473AD00E0FE38 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				EEEE018E1CFED6D60064439A /* NSString+Extension.h */,
+				EEEE018F1CFED6D60064439A /* NSString+Extension.m */,
+				EEEE01861CFED60A0064439A /* Foundation+Log.m */,
+				EEEE01871CFED60A0064439A /* NSDate+MJ.h */,
+				EEEE01881CFED60A0064439A /* NSDate+MJ.m */,
 				EEF1F9A11CFBD4C30080BEFD /* UIBarButtonItem+Extension.h */,
 				EEF1F9A21CFBD4C30080BEFD /* UIBarButtonItem+Extension.m */,
 				EEF1F9A31CFBD4C30080BEFD /* UIImage+Extension.h */,
@@ -246,6 +290,7 @@
 		EEEBFF981CE3099C00852377 /* SwiftWorld */ = {
 			isa = PBXGroup;
 			children = (
+				EEEE01621CFECD000064439A /* 列表模型 */,
 				EEF1F9C51CFC36470080BEFD /* 数据存储 */,
 				EEF1F9AA1CFBD4D10080BEFD /* 侧边栏 */,
 				EEDC57741CF6F3AA002F85CD /* 弹出框 */,
@@ -276,6 +321,65 @@
 				EEEBFFBB1CE3099D00852377 /* Info.plist */,
 			);
 			path = SwiftWorldUITests;
+			sourceTree = "<group>";
+		};
+		EEEE01621CFECD000064439A /* 列表模型 */ = {
+			isa = PBXGroup;
+			children = (
+				EEEE01821CFECD390064439A /* TableViewModelController.swift */,
+				EEEE01841CFED2240064439A /* CellPopViewController.swift */,
+				EEEE01631CFECD000064439A /* Common */,
+			);
+			path = "列表模型";
+			sourceTree = "<group>";
+		};
+		EEEE01631CFECD000064439A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EEEE01641CFECD000064439A /* Controller */,
+				EEEE01671CFECD000064439A /* Model */,
+				EEEE01741CFECD000064439A /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		EEEE01641CFECD000064439A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EEEE01651CFECD000064439A /* HMCommonViewController.h */,
+				EEEE01661CFECD000064439A /* HMCommonViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EEEE01671CFECD000064439A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EEEE01681CFECD000064439A /* HMCommonArrowItem.h */,
+				EEEE01691CFECD000064439A /* HMCommonArrowItem.m */,
+				EEEE016A1CFECD000064439A /* HMCommonCenterItem.h */,
+				EEEE016B1CFECD000064439A /* HMCommonCenterItem.m */,
+				EEEE016C1CFECD000064439A /* HMCommonGroup.h */,
+				EEEE016D1CFECD000064439A /* HMCommonGroup.m */,
+				EEEE016E1CFECD000064439A /* HMCommonItem.h */,
+				EEEE016F1CFECD000064439A /* HMCommonItem.m */,
+				EEEE01701CFECD000064439A /* HMCommonLabelItem.h */,
+				EEEE01711CFECD000064439A /* HMCommonLabelItem.m */,
+				EEEE01721CFECD000064439A /* HMCommonSwitchItem.h */,
+				EEEE01731CFECD000064439A /* HMCommonSwitchItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EEEE01741CFECD000064439A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EEEE01751CFECD000064439A /* HMBadgeView.h */,
+				EEEE01761CFECD000064439A /* HMBadgeView.m */,
+				EEEE01771CFECD000064439A /* HMCommonCell.h */,
+				EEEE01781CFECD000064439A /* HMCommonCell.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		EEF1F9AA1CFBD4D10080BEFD /* 侧边栏 */ = {
@@ -456,24 +560,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEE9AA311CF7E403008DF1CB /* PopViewController.swift in Sources */,
+				EEEE017C1CFECD000064439A /* HMCommonGroup.m in Sources */,
 				EEEB40261CF473AD00E0FE38 /* ViewController.swift in Sources */,
+				EEEE017A1CFECD000064439A /* HMCommonArrowItem.m in Sources */,
 				EEF1F9BE1CFBD4D20080BEFD /* HMTitleView.m in Sources */,
 				EEF1F9BC1CFBD4D20080BEFD /* HMReadingViewController.m in Sources */,
 				EEF1F9C91CFC36EB0080BEFD /* BookModel.swift in Sources */,
+				EEEE018C1CFED60A0064439A /* NSDate+MJ.m in Sources */,
+				EEEE01811CFECD000064439A /* HMCommonCell.m in Sources */,
 				EEF1F9A91CFBD4C30080BEFD /* UIView+Extension.m in Sources */,
 				EEEB40021CF46BB500E0FE38 /* CircleLHQView.m in Sources */,
 				EEDC57761CF6F3AA002F85CD /* CMPopTipView.swift in Sources */,
 				EEEB40221CF473AD00E0FE38 /* OtherViewController.swift in Sources */,
 				EEF1F9B91CFBD4D20080BEFD /* HMMainViewController.m in Sources */,
 				EEF1F9A81CFBD4C30080BEFD /* UIImage+Extension.m in Sources */,
+				EEEE01831CFECD390064439A /* TableViewModelController.swift in Sources */,
+				EEEE01901CFED6D60064439A /* NSString+Extension.m in Sources */,
 				EEF1F9C71CFC36670080BEFD /* DataViewController.swift in Sources */,
 				EEEB40231CF473AD00E0FE38 /* WaterPrinpleViewController.swift in Sources */,
 				EEF1F9A71CFBD4C30080BEFD /* UIBarButtonItem+Extension.m in Sources */,
 				EEF1F9BB1CFBD4D20080BEFD /* HMNewsViewController.m in Sources */,
 				EEF1F9BD1CFBD4D20080BEFD /* HMLeftMenu.m in Sources */,
+				EEEE01851CFED2240064439A /* CellPopViewController.swift in Sources */,
+				EEEE01791CFECD000064439A /* HMCommonViewController.m in Sources */,
 				EEF1F9BA1CFBD4D20080BEFD /* HMNavigationController.m in Sources */,
 				EEEB40241CF473AD00E0FE38 /* AppDelegate.swift in Sources */,
+				EEEE018B1CFED60A0064439A /* Foundation+Log.m in Sources */,
 				EEEB3FFF1CF46B8900E0FE38 /* DynamicMenuViewController.m in Sources */,
+				EEEE017F1CFECD000064439A /* HMCommonSwitchItem.m in Sources */,
+				EEEE017D1CFECD000064439A /* HMCommonItem.m in Sources */,
+				EEEE017B1CFECD000064439A /* HMCommonCenterItem.m in Sources */,
+				EEEE01801CFECD000064439A /* HMBadgeView.m in Sources */,
+				EEEE017E1CFECD000064439A /* HMCommonLabelItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

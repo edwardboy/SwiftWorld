@@ -21,7 +21,27 @@
 
 #define WIDTH [UIScreen mainScreen].bounds.size.width
 #define HEIGHT [UIScreen mainScreen].bounds.size.height
+// 颜色
+#define HMColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
 
+// 随机色
+#define HMRandomColor HMColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+// 屏幕尺寸
+#define HMScreenW [UIScreen mainScreen].bounds.size.width
+
+// cell的计算参数
+// cell之间的间距
+#define HMStatusCellMargin 10
+
+// cell的内边距
+#define HMStatusCellInset 10
+
+// 全局背景色
+#define HMGlobalBg HMColor(211, 211, 211)
+
+// 是否为iOS7
+#define iOS7 ([[UIDevice currentDevice].systemVersion doubleValue] >= 7.0)
 
 #define CATEGORYPATH @"http://baobab.wandoujia.com/api/v3/videos?&categoryName=%@&strategy=%@"
 #define HOT_RANKING_PATH @"http://baobab.wandoujia.com/api/v3/ranklist?strategy=%@&udid=b1619ac22b03489c94c233d5c815a225393cb958"

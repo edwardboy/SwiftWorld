@@ -1,0 +1,25 @@
+//
+//  HMCommonCell.h
+//  黑马微博
+//
+//  Created by apple on 14-7-21.
+//  Copyright (c) 2014年 heima. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+#import "HMCommonItem.h"
+#import "HMCommonArrowItem.h"
+#import "HMCommonSwitchItem.h"
+#import "HMCommonLabelItem.h"
+#import "HMCommonCenterItem.h"
+#import "HMBadgeView.h"
+//@class HMCommonItem;
+
+@interface HMCommonCell : UITableViewCell
++ (instancetype)cellWithTableView:(UITableView *)tableView;
+- (void)setIndexPath:(NSIndexPath *)indexPath rowsInSection:(int)rows;
+
+/** cell对应的item数据 */
+@property (nonatomic, strong) HMCommonItem *item;
+@end
