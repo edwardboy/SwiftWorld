@@ -108,6 +108,7 @@
     self.detailTextLabel.x = CGRectGetMaxX(self.textLabel.frame) + 5;
 //    }
 }
+
 #pragma mark - setter
 - (void)setIndexPath:(NSIndexPath *)indexPath rowsInSection:(int)rows
 {

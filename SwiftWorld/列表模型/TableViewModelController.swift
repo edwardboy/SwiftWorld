@@ -18,6 +18,7 @@ class TableViewModelController: HMCommonViewController {
     }
     
     func setupData(){
+        
         // 第一组
         let firstGroup : HMCommonGroup = HMCommonGroup()
         groups().addObject(firstGroup)

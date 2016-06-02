@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE4BDF2D1CFEE69400CC8520 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4BDF2C1CFEE69400CC8520 /* CustomView.swift */; };
 		EEDC57761CF6F3AA002F85CD /* CMPopTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDC57751CF6F3AA002F85CD /* CMPopTipView.swift */; };
 		EEE9AA311CF7E403008DF1CB /* PopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE9AA2F1CF7E403008DF1CB /* PopViewController.swift */; };
 		EEE9AA321CF7E403008DF1CB /* PopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEE9AA301CF7E403008DF1CB /* PopViewController.xib */; };
@@ -79,6 +80,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EE4BDF2C1CFEE69400CC8520 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		EEDC57751CF6F3AA002F85CD /* CMPopTipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMPopTipView.swift; sourceTree = "<group>"; };
 		EEE9AA2F1CF7E403008DF1CB /* PopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopViewController.swift; sourceTree = "<group>"; };
 		EEE9AA301CF7E403008DF1CB /* PopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopViewController.xib; sourceTree = "<group>"; };
@@ -180,6 +182,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE4BDF2B1CFEE67900CC8520 /* CoreText */ = {
+			isa = PBXGroup;
+			children = (
+				EE4BDF2C1CFEE69400CC8520 /* CustomView.swift */,
+			);
+			path = CoreText;
 			sourceTree = "<group>";
 		};
 		EEDC57741CF6F3AA002F85CD /* 弹出框 */ = {
@@ -290,6 +300,7 @@
 		EEEBFF981CE3099C00852377 /* SwiftWorld */ = {
 			isa = PBXGroup;
 			children = (
+				EE4BDF2B1CFEE67900CC8520 /* CoreText */,
 				EEEE01621CFECD000064439A /* 列表模型 */,
 				EEF1F9C51CFC36470080BEFD /* 数据存储 */,
 				EEF1F9AA1CFBD4D10080BEFD /* 侧边栏 */,
@@ -568,6 +579,7 @@
 				EEF1F9C91CFC36EB0080BEFD /* BookModel.swift in Sources */,
 				EEEE018C1CFED60A0064439A /* NSDate+MJ.m in Sources */,
 				EEEE01811CFECD000064439A /* HMCommonCell.m in Sources */,
+				EE4BDF2D1CFEE69400CC8520 /* CustomView.swift in Sources */,
 				EEF1F9A91CFBD4C30080BEFD /* UIView+Extension.m in Sources */,
 				EEEB40021CF46BB500E0FE38 /* CircleLHQView.m in Sources */,
 				EEDC57761CF6F3AA002F85CD /* CMPopTipView.swift in Sources */,
