@@ -11,8 +11,22 @@ import UIKit
 import CoreText
 
 class CustomView: UIView {
-
     
+    var str : String?
+    
+    override  init(frame: CGRect) {
+        super.init(frame: frame)
+    }
+    
+    convenience init(showText text:String) {
+        self.init()
+        str = text
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+
     // Only override drawRect: if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
     override func drawRect(rect: CGRect) {
@@ -24,17 +38,40 @@ class CustomView: UIView {
         let path = CGPathCreateMutable()
         CGPathAddRect(path, nil, rect)
         
-        var mutableString = NSMutableAttributedString(string: "哈哈哈哈哈哈哈哈")
+        let mutableString = NSMutableAttributedString(string: str!)
         
         // 设置段落样式
         let style = NSMutableParagraphStyle()
-        style.lineSpacing = 10
-        style.headIndent = 10
-        style.firstLineHeadIndent = 20
+        style.lineSpacing = 10  // 行距
+        style.headIndent = 0    //
+        style.firstLineHeadIndent = 0
         
-//        Range range = Range(start: 0, end: mutableString.length-1)
-//        NSRange range = NSMakeRange(location:0 length:mutableString.length)
-//        mutableString.addAttribute(NSParagraphStyleAttributeName, value: style, range: )
+        let length = mutableString.length
+        
+        let range = NSMakeRange(0 ,length)
+        
+        mutableString.addAttribute(NSParagraphStyleAttributeName, value: style, range: range)
+     
+        let setter: CTFramesetterRef = CTFramesetterCreateWithAttributedString(mutableString)
+        
+        // 通过CTFramesetterRef创建CTFrameRef
+        let frame:CTFrameRef = CTFramesetterCreateFrame(setter, CFRangeMake(0, 0), path, nil)
+        
+        let lines:CFArrayRef = CTFrameGetLines(frame)
+        
+        let linesCount  = CFArrayGetCount(lines)
+        
+        print("行数为:" + "\(linesCount)")
+        
+        // 转换坐标系
+        let context : CGContextRef = UIGraphicsGetCurrentContext()!
+        CGContextTranslateCTM(context, 0, rect.size.height)
+        CGContextScaleCTM(context, 1.0, -1.0)
+        
+        // 画CTFrameRef
+        CTFrameDraw(frame, context)
+        
+        // 释放内存
         
     }
 
