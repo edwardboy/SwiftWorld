@@ -19,7 +19,7 @@ class CustomView: UIView {
     }
     
     convenience init(showText text:String) {
-        self.init()
+        self.init() // 此处调用的是self的init方法
         str = text
     }
     

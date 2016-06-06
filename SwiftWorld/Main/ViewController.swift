@@ -36,7 +36,29 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         items = ["水波纹效果","模拟建行app转动菜单","弹出框","其他","数据存储","cell模型","CoreText"]
         
         listView.registerClass(UITableViewCell.classForCoder(), forCellReuseIdentifier: "CELL")
+        
+        //  自定义返回按钮  测试
+        
+        let backButton = UIButton(frame:CGRectMake(0,0,40,35))
+        backButton.setTitle("返回", forState: .Normal)
+//        backButton.backgroundColor = UIColor.lightGrayColor()
+        backButton.titleEdgeInsets = UIEdgeInsetsMake(0, -18, 0, 0)
+        backButton.setTitleColor(UIColor.orangeColor(), forState: .Normal)
+        backButton.addTarget(self, action: "clickBackButton:", forControlEvents: .TouchUpInside)
+        
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(customView: backButton)
+        
+//        self.navigationItem.backBarButtonItem = UIBarButtonItem(customView: backButton)
     }
+    
+    // 返回按钮点击事件
+    func clickBackButton(button:UIButton){
+        print("=======")
+    }
+    
+    /**
+     UITableViewDataSource
+     */
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1;
