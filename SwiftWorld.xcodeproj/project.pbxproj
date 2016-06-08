@@ -48,6 +48,7 @@
 		EEF1F9BE1CFBD4D20080BEFD /* HMTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF1F9B81CFBD4D20080BEFD /* HMTitleView.m */; };
 		EEF1F9C71CFC36670080BEFD /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF1F9C61CFC36670080BEFD /* DataViewController.swift */; };
 		EEF1F9C91CFC36EB0080BEFD /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF1F9C81CFC36EB0080BEFD /* BookModel.swift */; };
+		EEF3FA311D07ABFE00ED08FD /* AVSpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF3FA301D07ABFE00ED08FD /* AVSpeechViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,6 +153,7 @@
 		EEF1F9BF1CFBD62A0080BEFD /* netease.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = netease.pch; sourceTree = "<group>"; };
 		EEF1F9C61CFC36670080BEFD /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		EEF1F9C81CFC36EB0080BEFD /* BookModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		EEF3FA301D07ABFE00ED08FD /* AVSpeechViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVSpeechViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -303,6 +305,7 @@
 		EEEBFF981CE3099C00852377 /* SwiftWorld */ = {
 			isa = PBXGroup;
 			children = (
+				EEF3FA2F1D07ABDA00ED08FD /* 文字转语音 */,
 				EE4BDF2B1CFEE67900CC8520 /* CoreText */,
 				EEEE01621CFECD000064439A /* 列表模型 */,
 				EEF1F9C51CFC36470080BEFD /* 数据存储 */,
@@ -438,6 +441,14 @@
 				EEF1F9C81CFC36EB0080BEFD /* BookModel.swift */,
 			);
 			path = "数据存储";
+			sourceTree = "<group>";
+		};
+		EEF3FA2F1D07ABDA00ED08FD /* 文字转语音 */ = {
+			isa = PBXGroup;
+			children = (
+				EEF3FA301D07ABFE00ED08FD /* AVSpeechViewController.swift */,
+			);
+			path = "文字转语音";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -586,6 +597,7 @@
 				EEF1F9A91CFBD4C30080BEFD /* UIView+Extension.m in Sources */,
 				EEEB40021CF46BB500E0FE38 /* CircleLHQView.m in Sources */,
 				EEDC57761CF6F3AA002F85CD /* CMPopTipView.swift in Sources */,
+				EEF3FA311D07ABFE00ED08FD /* AVSpeechViewController.swift in Sources */,
 				EEEB40221CF473AD00E0FE38 /* OtherViewController.swift in Sources */,
 				EEF1F9B91CFBD4D20080BEFD /* HMMainViewController.m in Sources */,
 				EEF1F9A81CFBD4C30080BEFD /* UIImage+Extension.m in Sources */,

@@ -47,8 +47,6 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         backButton.addTarget(self, action: "clickBackButton:", forControlEvents: .TouchUpInside)
         
         self.navigationItem.leftBarButtonItem = UIBarButtonItem(customView: backButton)
-        
-//        self.navigationItem.backBarButtonItem = UIBarButtonItem(customView: backButton)
     }
     
     // 返回按钮点击事件
