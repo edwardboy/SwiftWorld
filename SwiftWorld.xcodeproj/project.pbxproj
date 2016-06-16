@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		EE4BDF2D1CFEE69400CC8520 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4BDF2C1CFEE69400CC8520 /* CustomView.swift */; };
 		EEDC57761CF6F3AA002F85CD /* CMPopTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDC57751CF6F3AA002F85CD /* CMPopTipView.swift */; };
+		EEE448D51D0F90D000CA7701 /* EDCurveItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE448D41D0F90D000CA7701 /* EDCurveItemView.m */; };
+		EEE448D81D0F90E200CA7701 /* EDCurveMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE448D71D0F90E200CA7701 /* EDCurveMainView.m */; };
+		EEE448DB1D0F90F400CA7701 /* EDCurveMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE448DA1D0F90F400CA7701 /* EDCurveMenuView.m */; };
+		EEE448DE1D0FA8CB00CA7701 /* NSString+Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE448DD1D0FA8CB00CA7701 /* NSString+Digest.m */; };
 		EEE9AA311CF7E403008DF1CB /* PopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE9AA2F1CF7E403008DF1CB /* PopViewController.swift */; };
 		EEE9AA321CF7E403008DF1CB /* PopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEE9AA301CF7E403008DF1CB /* PopViewController.xib */; };
 		EEEB3FFF1CF46B8900E0FE38 /* DynamicMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEB3FFE1CF46B8900E0FE38 /* DynamicMenuViewController.m */; };
@@ -49,6 +53,9 @@
 		EEF1F9C71CFC36670080BEFD /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF1F9C61CFC36670080BEFD /* DataViewController.swift */; };
 		EEF1F9C91CFC36EB0080BEFD /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF1F9C81CFC36EB0080BEFD /* BookModel.swift */; };
 		EEF3FA311D07ABFE00ED08FD /* AVSpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF3FA301D07ABFE00ED08FD /* AVSpeechViewController.swift */; };
+		EEF3FA3B1D08044F00ED08FD /* UICountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF3FA3A1D08044F00ED08FD /* UICountingLabel.m */; };
+		EEF3FA3E1D08049C00ED08FD /* CountLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF3FA3D1D08049C00ED08FD /* CountLabelViewController.m */; };
+		EEF3FA411D08089600ED08FD /* CircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF3FA401D08089600ED08FD /* CircleProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +91,14 @@
 /* Begin PBXFileReference section */
 		EE4BDF2C1CFEE69400CC8520 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		EEDC57751CF6F3AA002F85CD /* CMPopTipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMPopTipView.swift; sourceTree = "<group>"; };
+		EEE448D31D0F90D000CA7701 /* EDCurveItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDCurveItemView.h; sourceTree = "<group>"; };
+		EEE448D41D0F90D000CA7701 /* EDCurveItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDCurveItemView.m; sourceTree = "<group>"; };
+		EEE448D61D0F90E200CA7701 /* EDCurveMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDCurveMainView.h; sourceTree = "<group>"; };
+		EEE448D71D0F90E200CA7701 /* EDCurveMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDCurveMainView.m; sourceTree = "<group>"; };
+		EEE448D91D0F90F400CA7701 /* EDCurveMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDCurveMenuView.h; sourceTree = "<group>"; };
+		EEE448DA1D0F90F400CA7701 /* EDCurveMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDCurveMenuView.m; sourceTree = "<group>"; };
+		EEE448DC1D0FA8CB00CA7701 /* NSString+Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Digest.h"; sourceTree = "<group>"; };
+		EEE448DD1D0FA8CB00CA7701 /* NSString+Digest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Digest.m"; sourceTree = "<group>"; };
 		EEE9AA2F1CF7E403008DF1CB /* PopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopViewController.swift; sourceTree = "<group>"; };
 		EEE9AA301CF7E403008DF1CB /* PopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopViewController.xib; sourceTree = "<group>"; };
 		EEEB3FFC1CF46B8800E0FE38 /* SwiftWorld-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftWorld-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -154,6 +169,12 @@
 		EEF1F9C61CFC36670080BEFD /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		EEF1F9C81CFC36EB0080BEFD /* BookModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
 		EEF3FA301D07ABFE00ED08FD /* AVSpeechViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVSpeechViewController.swift; sourceTree = "<group>"; };
+		EEF3FA391D08044F00ED08FD /* UICountingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICountingLabel.h; sourceTree = "<group>"; };
+		EEF3FA3A1D08044F00ED08FD /* UICountingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICountingLabel.m; sourceTree = "<group>"; };
+		EEF3FA3C1D08049C00ED08FD /* CountLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountLabelViewController.h; sourceTree = "<group>"; };
+		EEF3FA3D1D08049C00ED08FD /* CountLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountLabelViewController.m; sourceTree = "<group>"; };
+		EEF3FA3F1D08089600ED08FD /* CircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleProgressView.h; sourceTree = "<group>"; };
+		EEF3FA401D08089600ED08FD /* CircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -277,6 +298,8 @@
 		EEEB40211CF473AD00E0FE38 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				EEE448DC1D0FA8CB00CA7701 /* NSString+Digest.h */,
+				EEE448DD1D0FA8CB00CA7701 /* NSString+Digest.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -305,6 +328,7 @@
 		EEEBFF981CE3099C00852377 /* SwiftWorld */ = {
 			isa = PBXGroup;
 			children = (
+				EEF3FA381D0803AC00ED08FD /* 数字变化的动画效果 */,
 				EEF3FA2F1D07ABDA00ED08FD /* 文字转语音 */,
 				EE4BDF2B1CFEE67900CC8520 /* CoreText */,
 				EEEE01621CFECD000064439A /* 列表模型 */,
@@ -451,6 +475,25 @@
 			path = "文字转语音";
 			sourceTree = "<group>";
 		};
+		EEF3FA381D0803AC00ED08FD /* 数字变化的动画效果 */ = {
+			isa = PBXGroup;
+			children = (
+				EEF3FA391D08044F00ED08FD /* UICountingLabel.h */,
+				EEF3FA3A1D08044F00ED08FD /* UICountingLabel.m */,
+				EEF3FA3C1D08049C00ED08FD /* CountLabelViewController.h */,
+				EEF3FA3D1D08049C00ED08FD /* CountLabelViewController.m */,
+				EEF3FA3F1D08089600ED08FD /* CircleProgressView.h */,
+				EEF3FA401D08089600ED08FD /* CircleProgressView.m */,
+				EEE448D31D0F90D000CA7701 /* EDCurveItemView.h */,
+				EEE448D41D0F90D000CA7701 /* EDCurveItemView.m */,
+				EEE448D61D0F90E200CA7701 /* EDCurveMainView.h */,
+				EEE448D71D0F90E200CA7701 /* EDCurveMainView.m */,
+				EEE448D91D0F90F400CA7701 /* EDCurveMenuView.h */,
+				EEE448DA1D0F90F400CA7701 /* EDCurveMenuView.m */,
+			);
+			path = "数字变化的动画效果";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -587,6 +630,8 @@
 				EEE9AA311CF7E403008DF1CB /* PopViewController.swift in Sources */,
 				EEEE017C1CFECD000064439A /* HMCommonGroup.m in Sources */,
 				EEEB40261CF473AD00E0FE38 /* ViewController.swift in Sources */,
+				EEF3FA3B1D08044F00ED08FD /* UICountingLabel.m in Sources */,
+				EEE448D81D0F90E200CA7701 /* EDCurveMainView.m in Sources */,
 				EEEE017A1CFECD000064439A /* HMCommonArrowItem.m in Sources */,
 				EEF1F9BE1CFBD4D20080BEFD /* HMTitleView.m in Sources */,
 				EEF1F9BC1CFBD4D20080BEFD /* HMReadingViewController.m in Sources */,
@@ -594,7 +639,9 @@
 				EEEE018C1CFED60A0064439A /* NSDate+MJ.m in Sources */,
 				EEEE01811CFECD000064439A /* HMCommonCell.m in Sources */,
 				EE4BDF2D1CFEE69400CC8520 /* CustomView.swift in Sources */,
+				EEE448DB1D0F90F400CA7701 /* EDCurveMenuView.m in Sources */,
 				EEF1F9A91CFBD4C30080BEFD /* UIView+Extension.m in Sources */,
+				EEE448D51D0F90D000CA7701 /* EDCurveItemView.m in Sources */,
 				EEEB40021CF46BB500E0FE38 /* CircleLHQView.m in Sources */,
 				EEDC57761CF6F3AA002F85CD /* CMPopTipView.swift in Sources */,
 				EEF3FA311D07ABFE00ED08FD /* AVSpeechViewController.swift in Sources */,
@@ -606,13 +653,16 @@
 				EEF1F9C71CFC36670080BEFD /* DataViewController.swift in Sources */,
 				EEEB40231CF473AD00E0FE38 /* WaterPrinpleViewController.swift in Sources */,
 				EEF1F9A71CFBD4C30080BEFD /* UIBarButtonItem+Extension.m in Sources */,
+				EEF3FA3E1D08049C00ED08FD /* CountLabelViewController.m in Sources */,
 				EEF1F9BB1CFBD4D20080BEFD /* HMNewsViewController.m in Sources */,
 				EEF0A5DB1D01562800298FFD /* CoreTextViewController.swift in Sources */,
 				EEF1F9BD1CFBD4D20080BEFD /* HMLeftMenu.m in Sources */,
 				EEEE01851CFED2240064439A /* CellPopViewController.swift in Sources */,
 				EEEE01791CFECD000064439A /* HMCommonViewController.m in Sources */,
+				EEF3FA411D08089600ED08FD /* CircleProgressView.m in Sources */,
 				EEF1F9BA1CFBD4D20080BEFD /* HMNavigationController.m in Sources */,
 				EEEB40241CF473AD00E0FE38 /* AppDelegate.swift in Sources */,
+				EEE448DE1D0FA8CB00CA7701 /* NSString+Digest.m in Sources */,
 				EEEE018B1CFED60A0064439A /* Foundation+Log.m in Sources */,
 				EEEB3FFF1CF46B8900E0FE38 /* DynamicMenuViewController.m in Sources */,
 				EEEE017F1CFECD000064439A /* HMCommonSwitchItem.m in Sources */,

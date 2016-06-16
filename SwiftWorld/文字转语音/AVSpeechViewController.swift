@@ -21,6 +21,7 @@ class AVSpeechViewController: UIViewController,AVSpeechSynthesizerDelegate {
         speechSynthesizer.delegate = self;
         
         let text = "关雎 朝代：先秦 作者：西门庆 原文：关关雎鸠，在河之洲。窈窕淑女，君子好逑。参差荇菜，左右流之。窈窕淑女，寤寐求之。求之不得，寤寐思服。悠哉悠哉，辗转反侧。 参差荇菜，左右采之。窈窕淑女，琴瑟友之。参差荇菜，左右芼之。窈窕淑女，钟鼓乐之。";
+        
         //  utterance要说的话 由文本生成
         let utterance : AVSpeechUtterance = AVSpeechUtterance(string: text)
         
@@ -41,6 +42,30 @@ class AVSpeechViewController: UIViewController,AVSpeechSynthesizerDelegate {
         
         speechSynthesizer.speakUtterance(utterance)
         
+    }
+    
+    func speechSynthesizer(synthesizer: AVSpeechSynthesizer, didStartSpeechUtterance utterance: AVSpeechUtterance) {
+        print("didStartSpeechUtterance")
+    }
+    
+    func speechSynthesizer(synthesizer: AVSpeechSynthesizer, didFinishSpeechUtterance utterance: AVSpeechUtterance) {
+        print("didFinishSpeechUtterance")
+    }
+    
+    func speechSynthesizer(synthesizer: AVSpeechSynthesizer, didCancelSpeechUtterance utterance: AVSpeechUtterance) {
+        print("didCancelSpeechUtterance")
+    }
+    
+    func speechSynthesizer(synthesizer: AVSpeechSynthesizer, didContinueSpeechUtterance utterance: AVSpeechUtterance) {
+        print("didContinueSpeechUtterance")
+    }
+    
+    func speechSynthesizer(synthesizer: AVSpeechSynthesizer, didPauseSpeechUtterance utterance: AVSpeechUtterance) {
+        print("didPauseSpeechUtterance")
+    }
+    
+    func speechSynthesizer(synthesizer: AVSpeechSynthesizer, willSpeakRangeOfSpeechString characterRange: NSRange, utterance: AVSpeechUtterance) {
+        print("willSpeakRangeOfSpeechString")
     }
 
 }

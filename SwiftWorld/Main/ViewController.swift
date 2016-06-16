@@ -33,7 +33,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         
         self.edgesForExtendedLayout = .None
 
-        items = ["水波纹效果","模拟建行app转动菜单","弹出框","其他","数据存储","cell模型","CoreText"]
+        items = ["水波纹效果","模拟建行app转动菜单","弹出框","其他","数据存储","cell模型","CoreText","数字动画效果"]
         
         listView.registerClass(UITableViewCell.classForCoder(), forCellReuseIdentifier: "CELL")
         
@@ -41,7 +41,6 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         
         let backButton = UIButton(frame:CGRectMake(0,0,40,35))
         backButton.setTitle("返回", forState: .Normal)
-//        backButton.backgroundColor = UIColor.lightGrayColor()
         backButton.titleEdgeInsets = UIEdgeInsetsMake(0, -18, 0, 0)
         backButton.setTitleColor(UIColor.orangeColor(), forState: .Normal)
         backButton.addTarget(self, action: "clickBackButton:", forControlEvents: .TouchUpInside)
@@ -106,6 +105,9 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
             
         case 6:
             vc = CoreTextViewController()
+            
+        case 7:
+            vc = CountLabelViewController()
             
         default:
             break;
